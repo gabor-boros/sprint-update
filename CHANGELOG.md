@@ -6,5 +6,5 @@ All notable changes to this project will be documented in this file.
 
 **Features**
 
-- Initial implementation of sprint update ([df2e5bd](https://github.com/gabor-boros/sprint-update/commit/df2e5bd30fb3602164b2bd049765246f35b99283))
+- Initial implementation of sprint update ([2e00267](https://github.com/gabor-boros/sprint-update/commit/2e00267fe8f591c6551b43752f0a420b3185348e))
 
