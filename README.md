@@ -6,7 +6,18 @@ Generate markdown formatted sprint updates based on the Jira tickets were involv
 
 ## Installation
 
+## Installing with `brew`
+
+```shell
+$ brew tap gabor-boros/brew
+$ brew install sprint-update
+```
+
+## Manual installation
+
 To install `sprint-update`, use one of the [release artifacts](https://github.com/gabor-boros/sprint-update/releases) or simply run `go install https://github.com/gabor-boros/sprint-update`.
+
+### Configuration file
 
 Create a new configuration file `$HOME/.sprint-update.toml` with the following content:
 
