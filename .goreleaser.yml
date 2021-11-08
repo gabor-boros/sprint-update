@@ -18,10 +18,33 @@ archives:
       386: i386
       amd64: x86_64
 checksum:
-  name_template: 'checksums.txt'
+  name_template: "checksums.txt"
 signs:
   - artifacts: all
 snapshot:
   name_template: "{{ incpatch .Version }}-next"
 changelog:
   skip: true
+brews:
+  -
+    tap:
+      owner: gabor-boros
+      name: taps
+    commit_author:
+      name: "Gabor Boros"
+      email: gabor.brs@gmail.com
+    folder: Formula
+    homepage: "https://github.com/gabor-boros/sprint-update"
+    description: "Generate markdown formatted sprint updates based on the Jira tickets"
+    license: "MIT"
+    custom_block: |
+      head "https://github.com/gabor-boros/sprint-update", branch: "main"
+
+      livecheck do
+        url "https://github.com/gabor-boros/minutes/releases"
+        regex(/^v(\d+(?:\.\d+)+)$/i)
+      end
+
+      dependencies:
+        - name: go
+          type: build

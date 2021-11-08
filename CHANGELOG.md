@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [unreleased]
+
+**Build**
+
+- Add homebrew release ([8c359db](https://github.com/gabor-boros/sprint-update/commit/8c359db7e1d8f54a308abfbbee7420296ad08668))
+
 ## [0.1.0] - 2021-11-05
 
 **Features**
