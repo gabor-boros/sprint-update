@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.2] - 2021-11-08
+
+**Build**
+
+- Fix brew formula creation ([5b9f9ee](https://github.com/gabor-boros/sprint-update/commit/5b9f9ee641128c3ab42461d928c4908baf716256))
+
 ## [0.1.1] - 2021-11-08
 
 **Build**
