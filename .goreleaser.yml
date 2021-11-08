@@ -29,7 +29,7 @@ brews:
   -
     tap:
       owner: gabor-boros
-      name: taps
+      name: homebrew-brew
     commit_author:
       name: "Gabor Boros"
       email: gabor.brs@gmail.com
@@ -41,10 +41,10 @@ brews:
       head "https://github.com/gabor-boros/sprint-update", branch: "main"
 
       livecheck do
-        url "https://github.com/gabor-boros/minutes/releases"
+        url "https://github.com/gabor-boros/sprint-update/releases"
         regex(/^v(\d+(?:\.\d+)+)$/i)
       end
 
-      dependencies:
-        - name: go
-          type: build
+    dependencies:
+      - name: go
+        type: build
