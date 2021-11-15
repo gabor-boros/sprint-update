@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [unreleased]
+
+**Documentation**
+
+- Add more install method ([df8ce54](https://github.com/gabor-boros/sprint-update/commit/df8ce54588e28ffc0f45cda4041b5b23d0cafb6d))
+
+**Features**
+
+- Add spillovers to sprint update template ([70ebcb0](https://github.com/gabor-boros/sprint-update/commit/70ebcb0b287c3417ee293b82967a495eb12bea5d))
+
 ## [0.1.2] - 2021-11-08
 
 **Build**
