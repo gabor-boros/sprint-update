@@ -30,6 +30,10 @@ const sprintUpdateTemplate string = `
 [/details]
 {{- end }}
 
+**Spillovers**
+
+No spillovers in this sprint.
+
 **Kudos**
 
 * TODO
